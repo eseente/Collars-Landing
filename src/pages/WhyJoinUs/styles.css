@@ -1,0 +1,194 @@
+.why-join-us {
+    display: flex;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-color: #FFFBEC;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .why-join-us-container {
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+  }
+  .why-join-us-text-container{
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    align-items: start;
+    font-size: 20px;
+  }
+  
+  .why-join-us-header {
+    font-weight: bold;
+    line-height: 2.2;
+  }
+  
+  .why-join-us-icon {
+    margin-right: 10px;
+  }
+  
+  .why-join-us-button {
+    background-color: transparent;
+    color: #78350F;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: #78350F;
+    font-weight: 600;
+  }
+  
+  .why-join-us-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  
+  .video-deco {
+    overflow: hidden;
+    color: #FEF3C7;
+    position: absolute;
+    bottom: -25%;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    z-index: 1;
+  }
+  
+  .video-cover {
+    color: #FEF3C7;
+    position: absolute;
+    bottom: -29%;
+    left: 20%;
+    width: 80%;
+    height: 150%;
+    z-index: 2;
+  }
+  
+  .iframe-video {
+    color: #FEF3C7;
+    position: absolute;
+    bottom: 11%;
+    left: 26%;
+    width: 68%;
+    height: 74%;
+    z-index: 3;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+  }
+  
+  .green-dot {
+    color: #FEF3C7;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    width: 15%;
+    height: 20%;
+    z-index: 4;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .why-join-us {
+      display: flex;
+      padding-top: 8%;
+      padding-bottom: 8%;
+      background-color: #FFF;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .why-join-us-container {
+      flex-direction: column;
+      padding-bottom: 5%;
+    }
+  
+    .why-join-us-header {
+      text-align: center;
+      font-size: 1.8rem;
+      align-self: center;
+    }
+  
+    .why-join-us p {
+      font-size: 1rem;
+      align-self: center;
+    }
+  
+    .why-join-us-button {
+      font-size: 1.3rem;
+      width: 70%;
+      align-self: center;
+    }
+  
+    .why-join-us-video {
+      margin-bottom: 10%;
+      margin-top: 15%;
+      justify-content: center;
+    }
+  
+    .iframe-video {
+      left: 26%;
+      width: 68%;
+    }
+    .video-deco {
+      overflow: hidden;
+      color: #FEF3C7;
+      position: absolute;
+      bottom: -25%;
+      left: 0;
+      width: 100%;
+      height: 150%;
+      z-index: 1;
+    }
+    
+    .video-cover {
+      color: #FEF3C7;
+      position: absolute;
+      bottom: -29%;
+      left: 15%;
+      width: 80%;
+      height: 150%;
+      z-index: 2;
+    }
+    
+    .iframe-video {
+      color: #FEF3C7;
+      position: absolute;
+      bottom: 11%;
+      left: 21%;
+      width: 68%;
+      height: 74%;
+      z-index: 3;
+      border-bottom-right-radius: 18px;
+      border-bottom-left-radius: 18px;
+    }
+    
+    .green-dot {
+      color: #FEF3C7;
+      position: absolute;
+      bottom: 0;
+      left: 30%;
+      width: 15%;
+      height: 20%;
+      z-index: 4;
+    }
+    .why-join-us-container {
+      justify-content: center;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,.1);
+      border-radius: 20px;
+      padding: 0px;
+      display: flex;
+      flex-direction: column; 
+    }
+  }
+  
+  
+
+  

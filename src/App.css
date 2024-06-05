@@ -1,0 +1,54 @@
+.App {
+  background-color: '#FFFBEC';
+  overflow: hidden;
+}
+.first-section-container{
+  background-color:#FFFBEC;
+  position: relative;
+  z-index:-2;
+}
+.second-section-container{
+  background-color: #FFFBEC;
+  position: relative;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-section-bg{
+  color:#FEF3C7;
+  position: absolute;
+  bottom: -18%;
+  right: 0;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+  .main-section-bg{
+    display: none;
+  }
+  .first-section-container{
+    background-color:#fff;
+    position: relative;
+    z-index:-2;
+  }
+  .second-section-container{
+    background-color: #fff;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+  }
+
+}
+

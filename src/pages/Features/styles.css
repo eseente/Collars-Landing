@@ -1,0 +1,32 @@
+.features-section {
+    padding: 2rem 0;
+  }
+  
+  .features-row {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    
+  }
+  
+  .feature-col {
+    margin-bottom: 1rem;
+    flex: 0 0 33.3333%;
+    max-width: 100%;
+    align-items: start;
+    display: flex;
+    width: 33%;
+  }
+  
+  @media (max-width: 768px) {
+    .feature-col {
+      flex: 0 0 100%;
+      max-width: 100%;
+      justify-content: center;
+    }
+    .features-section{
+      background-color: #FEF3C7;
+    }
+  }
+  
+  

@@ -1,0 +1,25 @@
+.feature-card-icon{
+    display:flex; 
+    align-self:start;
+}
+
+.feature-texts{
+    display:flex;
+    align-self:start;
+    text-align:start;
+}
+
+@media only screen and (max-width: 768px) {
+    .feature-card-icon{
+        display:flex; 
+        align-self:center;
+        justify-content: center;
+    }
+
+    .feature-texts{
+        display:flex;
+        align-self:center;
+        text-align:center;
+        justify-content: center;
+    }
+}

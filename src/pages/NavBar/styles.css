@@ -1,0 +1,9 @@
+.navbar-container{
+    background-color: #FFFBEC;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-container{
+        background-color: #fff;
+    }
+}

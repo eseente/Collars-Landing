@@ -1,0 +1,132 @@
+.collection-title {
+  color: #0F172A;
+  font-weight: bold;
+  text-align: left;
+  display: flex;
+  margin-top: 5%;
+}
+
+.collection-text {
+  font-size: 16px;
+  text-align: left;
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  
+}
+
+.collection-image {
+  width: 100%;
+  z-index: 2;
+  position: relative;
+}
+.collection-buttons {
+  flex-direction: column; 
+  display: flex;
+  width: fit-content;
+  align-self: center;
+  justify-self: center;
+  margin-top: 10%;
+}
+
+.collection-container {
+  display: flex;
+  gap: 15px;
+  width: calc(100%);
+  padding-bottom: 8%;
+  flex-direction: column;
+}
+.collection-button1{
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: #0F172A;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.collection-button{
+  background-color:transparent;
+  color: #0F172A;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.arrow-icon{
+  margin:10px
+}
+
+@media only screen and (max-width: 768px) {
+  .collection-container {
+    padding-top: 5%;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-self:center;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .arrow-icon{
+    display: none;
+  }
+  
+  .collection-buttons {
+    width: 100%; 
+    overflow-x: auto !important; 
+    display: flex;
+    flex-direction: row;
+    white-space:nowrap;
+    margin-top: 0;
+    padding-bottom: 3%;
+  }
+
+  .collection-button1{
+    width: auto !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    white-space: nowrap;
+    flex-shrink: 0 !important;
+  }
+  .collection-button{
+    width: auto;
+    white-space: nowrap;
+    flex-shrink: 0 !important;
+  }
+
+  .collection-title {
+    font-size: 1.8rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: 8%;
+  }
+
+  .collection-text {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .collection-image {
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    z-index: 2 !important;
+    position: relative;
+  }
+
+  .collection-buttons-wrapper {
+    width: 100%; 
+    scroll-behavior: smooth;
+    display:flex;
+  }
+  .content-box{
+    width: 200%;
+    display: flex;
+    align-items: center;
+    gap:20px;
+  }
+}
