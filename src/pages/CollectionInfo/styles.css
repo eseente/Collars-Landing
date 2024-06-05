@@ -47,18 +47,26 @@
       font-size: 2rem;
       color: white;
       font-weight: bold;
+      text-align: center;
     }
     .collection-info-text{
       color:white;
       font-weight:bold;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
+      text-align: center;
     }
     .collection-info-chart{
-      width: 150%;
+      width: 100%;
       display: flex;
       height: auto;
+      left: 60%;
       position: absolute;
-    }
+      transform: scale(1.4);
+      -webkit-transform: scale(1.4);
+      -moz-transform: scale(1.4);
+      -ms-transform: scale(1.4);
+      -o-transform: scale(1.4);
+}
     .collection-info-point{
       position:absolute;
       width: 50%;
@@ -72,6 +80,7 @@
       top: 55%;
       left: 25%;
       text-align: center;
+      align-items: center;
       transform:(-50,-50%);
       -webkit-transform:(-50,-50%);
       -moz-transform:(-50,-50%);

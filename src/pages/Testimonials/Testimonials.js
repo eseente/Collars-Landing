@@ -30,9 +30,9 @@ const Testimonials = ({ data }) => {
 
   return (
     <div className="testimonials-first-container">
-      <Container style={{maxWidth:"100%"}}>
-        <Row style={{ paddingBottom:'4%', justifyContent:'space-between'}} className="d-flex justify-content-between align-items-center mb-4">
-          <Col md={4}>
+      <Container style={{maxWidth:"100%",display:'flex',flexDirection:'column'}}>
+        <Row style={{ paddingBottom:'4%', justifyContent:'space-between',width:'90%',alignSelf:'center'}} className="d-flex justify-content-between align-items-center mb-4">
+          <Col className='testimonials-title-container' md={5}>
             <h2 className='testimonials-title'><strong>Because they love us</strong></h2>
           </Col>
           <Col md={2} className="text-right">
